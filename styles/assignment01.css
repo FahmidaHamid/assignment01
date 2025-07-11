@@ -161,6 +161,7 @@ textarea {
   border-radius: 10px;
   display: block;
   background-color: white;
+  border: none;
 }
 
 .last-btn {
