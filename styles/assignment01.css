@@ -43,6 +43,22 @@ header {
   padding: 0 auto;
   grid-column-start: span 1;
 }
+button {
+  cursor: pointer;
+}
+
+button: hover {
+  background-color: #888888;
+}
+
+form input[type="submit"] {
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(106, 53, 155);
+}
+
 
 .banner {
   grid-column: 3 / span 8;
